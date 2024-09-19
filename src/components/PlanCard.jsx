@@ -1,5 +1,7 @@
 import React from "react";
 
-export const PlanCard = () => {
+const PlanCard = () => {
   return <div>PlanCard</div>;
 };
+
+export default PlanCard;

@@ -1,5 +1,7 @@
 import React from "react";
 
-export const PlansSection = () => {
+const PlansSection = () => {
   return <div>PlansSection</div>;
 };
+
+export default PlansSection;
