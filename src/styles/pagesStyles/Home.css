@@ -1,0 +1,54 @@
+.home-container {
+  height: auto;
+}
+
+.about-me {
+  padding: 40px 20px;
+  color: #fff;
+}
+
+.about-me-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 40px;
+}
+
+.about-me-image img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 100px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.about-me-text {
+  flex: 1;
+}
+
+.about-me-text h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.about-me-text p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #eaeaea;
+}
+
+@media (max-width: 768px) {
+  .about-me-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-me-image img {
+    max-width: 300px;
+  }
+
+  .about-me-text h1 {
+    font-size: 2rem;
+  }
+}

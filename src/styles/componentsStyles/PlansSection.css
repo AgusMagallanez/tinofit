@@ -1,0 +1,35 @@
+.plans-section {
+  margin: 0 100px;
+  padding: 50px 20px;
+  background-color: #161515;
+  color: white;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.plans-grid {
+  display: grid;
+  /* grid-template-columns: repeat(3, 1fr); */
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 40px;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .plans-section {
+    margin: 0;
+    padding: 20px 20px;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .plans-grid {
+    grid-template-columns: 1fr;
+  }
+}
