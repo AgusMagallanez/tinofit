@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Instagram, Facebook, YouTube } from "@mui/icons-material";
+import { Instagram, YouTube } from "@mui/icons-material";
+import { FaWhatsapp } from "react-icons/fa";
 import "../styles/componentsStyles/Footer.css";
 
 const Footer = () => {
@@ -31,11 +32,11 @@ const Footer = () => {
           </a>
 
           <a
-            href="https://www.facebook.com"
+            href="https://wa.me/34633163966"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Facebook />
+            <FaWhatsapp />
           </a>
         </div>
       </footer>

@@ -1,0 +1,18 @@
+.payment-methods {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.payment-methods__title {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.payment-methods__img {
+  width: 100%;
+  max-width: 800px;
+}

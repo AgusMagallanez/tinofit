@@ -4,48 +4,51 @@ import "../styles/componentsStyles/PlansSection.css";
 
 const plans = [
   {
-    title: "Plan Básico",
-    description: "Un plan perfecto para iniciarse en el mundo del fitness.",
+    title: "Plan Rutino",
+    description:
+      "Rutina personalizada para principiantes, intermedios y avanzados.",
     price: "$29.99",
     image: "/about-me-pic.png",
   },
   {
-    title: "Plan Avanzado",
+    title: "Plan Rutino 2.0",
     description:
-      "Para aquellos que ya tienen experiencia y buscan más desafíos.",
+      "Rutina personalizada, chat de consultas conmigo y guias de alimentación en base a tu objetivo.",
     price: "$49.99",
     image: "/about-me-pic.png",
   },
   {
-    title: "Plan Premium",
-    description: "El plan más completo con seguimiento personalizado.",
+    title: "Plan TINOFIT Personalizado",
+    description:
+      "Asesoría 1 a 1 conmigo, seguimiento semanal del físico y gimnasio, rutina personalizada, acceso a 1 videollamada por semana.",
     price: "$69.99",
     image: "/about-me-pic.png",
   },
   {
-    title: "Otro Plan",
-    description: "Descrpición sobre lo que incluye el plan",
+    title: "Plan TINOFIT VIP",
+    description:
+      "Asesoría 1 a 1 conmigo con acceso a videollamadas, cambio de hábitos, rutina personalizada, guia alimentaria personalizada en base a tus objetivos, chat 24/7 conmigo  para desatar cualquier duda.",
     price: "$100.00",
     image: "/about-me-pic.png",
   },
-  {
-    title: "Otro Plan",
-    description: "Descrpición sobre lo que incluye el plan",
-    price: "$100.00",
-    image: "/about-me-pic.png",
-  },
-  {
-    title: "Otro Plan",
-    description: "Descrpición sobre lo que incluye el plan",
-    price: "$100.00",
-    image: "/about-me-pic.png",
-  },
+  // {
+  //   title: "Otro Plan",
+  //   description: "Descrpición sobre lo que incluye el plan",
+  //   price: "$100.00",
+  //   image: "/about-me-pic.png",
+  // },
+  // {
+  //   title: "Otro Plan",
+  //   description: "Descrpición sobre lo que incluye el plan",
+  //   price: "$100.00",
+  //   image: "/about-me-pic.png",
+  // },
 ];
 
 const PlansSection = () => {
   return (
     <section className="plans-section">
-      {/* <h1 className="section-title">Nuestros Planes</h1> */}
+      <h1 className="section-title">Planes a tu medida</h1>
       <div className="plans-grid">
         {plans.map((plan, index) => (
           <PlanCard

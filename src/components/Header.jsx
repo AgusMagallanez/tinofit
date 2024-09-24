@@ -4,7 +4,6 @@ import { Drawer, IconButton } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import SearchIcon from "@mui/icons-material/Search";
 import "../styles/componentsStyles/Header.css";
-import { Margin } from "@mui/icons-material";
 
 const Header = () => {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
@@ -15,16 +14,33 @@ const Header = () => {
 
   return (
     <header className="header">
+      <div className="logo">
+        <Link to="/">
+          <img src="/logo.png" alt="Logo TINOFIT" />
+        </Link>
+      </div>
       <nav className="nav-bar">
+        <ul className="desktop-nav">
+          <li>
+            <Link to="/acerca-de">Acerca de</Link>
+          </li>
+          <li>
+            <Link to="/planes">Planes</Link>
+          </li>
+          <li>
+            <Link to="/medios-pago">Medios de Pago</Link>
+          </li>
+        </ul>
+
+        {/* IconButton solo visible en mobile */}
         <IconButton
           edge="start"
           color="inherit"
           aria-label="menu"
           onClick={toggleDrawer}
           className="menu-button"
-          style={{ margin: "0" }}
         >
-          <MenuIcon />
+          <MenuIcon style={{ fontSize: "2.4rem" }} />
         </IconButton>
 
         <Drawer
@@ -34,7 +50,7 @@ const Header = () => {
           sx={{
             "& .MuiDrawer-paper": {
               backgroundColor: "transparent",
-              borderRadius: "10px",
+              borderRadius: "3px",
               height: "auto",
               maxHeight: "90vh",
               overflow: "auto",
@@ -45,7 +61,7 @@ const Header = () => {
           <div className="drawer-content">
             <ul>
               <li>
-                <Link to="/about" onClick={toggleDrawer}>
+                <Link to="/acerca-de" onClick={toggleDrawer}>
                   Acerca de
                 </Link>
               </li>
@@ -63,20 +79,6 @@ const Header = () => {
           </div>
         </Drawer>
       </nav>
-
-      <div className="logo">
-        <Link to="/">
-          <img src="/logo.png" alt="Logo TINOFIT" />
-        </Link>
-      </div>
-      <div className="search-icon">
-        <IconButton
-          color="inherit"
-          onClick={() => alert("Funcionalidad de búsqueda próximamente!")}
-        >
-          <SearchIcon />
-        </IconButton>
-      </div>
     </header>
   );
 };

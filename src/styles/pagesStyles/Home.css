@@ -2,6 +2,11 @@
   height: auto;
 }
 
+hr {
+  border: none;
+  border-top: 2px solid #ffffff06; /* Cambia el color y el grosor */
+}
+
 .about-me {
   padding: 40px 20px;
   color: #fff;
@@ -19,8 +24,10 @@
 .about-me-image img {
   width: 100%;
   max-width: 400px;
-  border-radius: 100px;
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+
+  mix-blend-mode: screen;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.589);
 }
 
 .about-me-text {
@@ -28,7 +35,7 @@
 }
 
 .about-me-text h1 {
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   margin: 0;
 }
 
@@ -36,6 +43,8 @@
   font-size: 1.2rem;
   line-height: 1.6;
   color: #eaeaea;
+  padding: 10px 0 0;
+  margin: 0;
 }
 
 @media (max-width: 768px) {

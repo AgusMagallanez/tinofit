@@ -1,3 +1,4 @@
+/* General Header Styles */
 .header {
   display: flex;
   justify-content: space-between;
@@ -8,39 +9,61 @@
   box-shadow: 5px 5px 5px 1px #0000003c;
 }
 
-.nav-bar ul {
+.logo img {
+  max-height: 70px;
+}
+
+.nav-bar {
+  display: flex;
+}
+
+.nav-bar > button {
+  display: none;
+}
+
+.desktop-nav {
   display: flex;
   list-style: none;
 }
 
-.nav-bar ul li {
+.desktop-nav li {
   margin: 0 15px;
 }
 
-.nav-bar ul li a {
+.desktop-nav li a {
   color: #fff;
   text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: transform 0.3s ease, border-bottom 0.3s ease;
+  display: inline-block;
 }
 
-.logo img {
-  max-height: 50px;
+.desktop-nav li a:hover {
+  border-bottom: 1px solid #ffffff;
+  transform: translateY(-5px);
 }
 
-.search-icon button {
+/* Search icon (comentar si no se usa) */
+/* .search-icon button {
   background: none;
   border: none;
   color: white;
   font-size: 1.2rem;
   cursor: pointer;
-}
+} */
 
+/* Mobile Styles */
 @media (max-width: 768px) {
-  .nav-bar ul {
+  .nav-bar > button {
+    display: block !important;
+  }
+
+  .desktop-nav {
     display: none;
   }
 
-  .menu-button {
-    display: block;
+  .logo img {
+    max-height: 50px;
   }
 }
 
