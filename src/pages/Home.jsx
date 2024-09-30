@@ -8,8 +8,11 @@ const Home = () => {
   return (
     <>
       <section className="home-container">
-        <AboutMeComp />
-        <hr />
+        <section className="hero-section">
+          <div className="hero-section__content"></div>
+        </section>
+        {/* <AboutMeComp /> */}
+        {/* <hr /> */}
         <PlansSectionComp />
         <PaymentsMethodsComp />
       </section>

@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;400;700&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap");
+
 body {
   background-color: #161515;
   color: #f2f5ff;
@@ -14,5 +16,6 @@ body {
 h1,
 h2,
 h3 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Black Ops One", system-ui;
+  text-transform: uppercase;
 }

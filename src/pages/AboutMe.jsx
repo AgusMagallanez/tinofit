@@ -4,7 +4,6 @@ import AboutMeComp from "../components/AboutMe";
 const AboutMe = () => {
   return (
     <>
-      Hola
       <AboutMeComp />
     </>
   );

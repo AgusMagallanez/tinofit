@@ -7,6 +7,9 @@
   background-color: #161515;
   color: #fff;
   box-shadow: 5px 5px 5px 1px #0000003c;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 .logo img {
