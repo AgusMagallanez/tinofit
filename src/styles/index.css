@@ -1,8 +1,3 @@
 * {
   box-sizing: border-box;
 }
-
-html {
-  scroll-behavior: smooth;
-  /* Esto hace que la navegación entre secciones sea suave y fluida */
-}

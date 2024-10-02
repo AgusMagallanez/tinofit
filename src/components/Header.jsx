@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { Drawer, IconButton } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
-import SearchIcon from "@mui/icons-material/Search";
 import "../styles/componentsStyles/Header.css";
 
 const Header = () => {
@@ -32,7 +31,6 @@ const Header = () => {
           </li>
         </ul>
 
-        {/* IconButton solo visible en mobile */}
         <IconButton
           edge="start"
           color="inherit"

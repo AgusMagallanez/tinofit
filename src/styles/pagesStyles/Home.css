@@ -1,16 +1,8 @@
-.home-container {
-  height: auto;
-}
-
-hr {
-  border: none;
-  border-top: 2px solid #ffffff06;
-}
-
 .hero-section {
+  position: relative;
   width: 100%;
   height: 90vh;
-  background-image: url("/background.JPG");
+  background-image: url("/background3.JPG");
   background-size: cover;
   background-position: center 32%;
 }
@@ -22,18 +14,65 @@ hr {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.2);
   z-index: 0;
 }
 
 .hero-section__content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.hero-section__content > h2 {
   position: absolute;
+  top: 3%;
+  right: 20px;
+  margin: 0;
+  font-size: 3rem;
+}
+
+.hero-socials {
+  position: absolute;
+  left: 30px;
   top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-socials a {
   color: #fff;
-  text-align: center;
-  z-index: 1;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.hero-socials a:hover {
+  color: #f05e00;
+  transform: translateY(-5px);
+}
+
+.home-btn {
+  position: absolute;
+  left: 30px;
+  bottom: 10%;
+  background-color: #f05e00;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.3rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.home-btn:hover {
+  background-color: transparent;
+  border: solid 1px #f05e00;
+  transform: translateX(10px);
+  font-size: 1.4rem;
 }
 
 .about-me {
@@ -88,5 +127,16 @@ hr {
 
   .about-me-text h1 {
     font-size: 2rem;
+  }
+
+  .hero-section__content > h2 {
+    display: none;
+  }
+  .hero-socials {
+    left: 10px;
+  }
+
+  .home-btn {
+    display: none;
   }
 }
