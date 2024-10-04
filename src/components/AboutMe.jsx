@@ -1,24 +1,38 @@
 import React from "react";
+import "../styles/componentsStyles/AboutMe.css";
 
 const AboutMe = () => {
   return (
     <section className="about-me">
       <div className="about-me-container">
-        <div className="about-me-image">
-          <img src="/about-me-pic.png" alt="Foto de Tino" />
-        </div>
-
-        <div className="about-me-text">
-          <h1>Sobre mí</h1>
+        <div className="about-me-biography">
+          <h2>Biografía</h2>
           <p>
-            Mi nombre es Tino como ya muchos conocerán pero si no es así me
-            presento. Tengo 19 años y estoy en busca de construir mi futuro a
-            base del fitness ayudando a otras personas a poder lograr lo que
-            logré yo naturalmente, dejame decirte todo lo que escuhás en las
-            redes es una mentira, poniendo el trabajo y el sacrificio se pueden
-            lograr cosas que nadie te creería que las lograste. Dejame ayudarte
-            para lograr ese cambio que tanto deseas.
+            ¡Hola! Soy Tino, y quizás ya me conozcas, pero si no, es un placer
+            presentarme. A mis 19 años, estoy comprometido a construir mi futuro
+            a través del fitness, ayudando a otros a alcanzar sus objetivos, tal
+            como lo hice yo de manera natural. Quiero decirte algo importante:
+            mucho de lo que ves en redes sociales no es real. Pero con esfuerzo
+            y sacrificio, puedes lograr cosas que parecen imposibles y cambiar
+            tu vida y mente por completo. Estoy aquí para guiarte y acompañarte
+            en ese cambio que tanto deseas. ¡Déjame ayudarte a lograrlo!
           </p>
+        </div>
+        <div className="images-container">
+          <div className="image-box">
+            <img
+              src="/before-after.png"
+              alt="antes y después del cambio físco de tino"
+            />
+          </div>
+          {/* <div className="image-box">
+            <img src="/pic2.JPG" alt="tino antes de su cambio físico" />
+            <p>Antes</p>
+          </div>
+          <div className="image-box">
+            <img src="pic1.png" alt="tino después de su cambio físico" />
+            <p>Después</p>
+          </div> */}
         </div>
       </div>
     </section>
