@@ -3,7 +3,7 @@ import "../styles/componentsStyles/PlanCard.css";
 
 const PlanCard = ({ title, description, price, image }) => {
   const handleWhatsAppClick = () => {
-    const message = `Hola Tino, me interesa en el plan: ${title}.`;
+    const message = `Hola Tino, me interesa el plan: ${title}.`;
     const phoneNumber = "34633163966";
     const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
       message

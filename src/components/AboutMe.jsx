@@ -6,7 +6,7 @@ const AboutMe = () => {
     <section className="about-me">
       <div className="about-me-container">
         <div className="about-me-biography">
-          <h2>Biografía</h2>
+          <h2>Mi historia</h2>
           <p>
             ¡Hola! Soy Tino, y quizás ya me conozcas, pero si no, es un placer
             presentarme. A mis 19 años, estoy comprometido a construir mi futuro
@@ -18,21 +18,11 @@ const AboutMe = () => {
             en ese cambio que tanto deseas. ¡Déjame ayudarte a lograrlo!
           </p>
         </div>
-        <div className="images-container">
-          <div className="image-box">
-            <img
-              src="/before-after.png"
-              alt="antes y después del cambio físco de tino"
-            />
-          </div>
-          {/* <div className="image-box">
-            <img src="/pic2.JPG" alt="tino antes de su cambio físico" />
-            <p>Antes</p>
-          </div>
-          <div className="image-box">
-            <img src="pic1.png" alt="tino después de su cambio físico" />
-            <p>Después</p>
-          </div> */}
+        <div className="image-box">
+          <img
+            src="/before-after.png"
+            alt="antes y después del cambio físco de tino"
+          />
         </div>
       </div>
     </section>

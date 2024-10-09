@@ -13,7 +13,6 @@ const Footer = () => {
             <img src="/logo.png" alt="Logo TINOFIT" />
           </Link>
         </div>
-
         <div className="footer-socials">
           <a
             href="https://www.instagram.com/tinolifestyle_/"
@@ -22,7 +21,6 @@ const Footer = () => {
           >
             <Instagram />
           </a>
-
           <a
             href="https://www.youtube.com/@tinofit99"
             target="_blank"
@@ -30,7 +28,6 @@ const Footer = () => {
           >
             <YouTube />
           </a>
-
           <a
             href="https://wa.me/34633163966"
             target="_blank"

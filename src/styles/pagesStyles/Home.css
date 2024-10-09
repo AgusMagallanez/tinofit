@@ -2,7 +2,7 @@
   position: relative;
   width: 100%;
   height: 90vh;
-  background-image: url("/background3.JPG");
+  background-image: url("/background.JPG");
   background-size: cover;
   background-position: center 32%;
 }
@@ -24,14 +24,6 @@
   height: 100%;
 }
 
-.hero-section__content > h2 {
-  position: absolute;
-  top: 3%;
-  right: 20px;
-  margin: 0;
-  font-size: 3rem;
-}
-
 .hero-socials {
   position: absolute;
   left: 30px;
@@ -51,28 +43,6 @@
 .hero-socials a:hover {
   color: #f05e00;
   transform: translateY(-5px);
-}
-
-.home-btn {
-  position: absolute;
-  left: 30px;
-  bottom: 10%;
-  background-color: #f05e00;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  border: 1px solid transparent;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 1.3rem;
-  transition: all 0.5s ease-in-out;
-}
-
-.home-btn:hover {
-  background-color: transparent;
-  border: solid 1px #f05e00;
-  transform: translateX(10px);
-  font-size: 1.4rem;
 }
 
 @media (max-width: 768px) {

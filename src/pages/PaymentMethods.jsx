@@ -14,7 +14,7 @@ const PaymentMethods = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            acá
+            aquí
           </a>{" "}
           para saber más sobre los métodos de pago disponibles!
         </p>
