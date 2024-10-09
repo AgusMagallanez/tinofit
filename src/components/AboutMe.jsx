@@ -20,7 +20,7 @@ const AboutMe = () => {
         </div>
         <div className="image-box">
           <img
-            src="/before-after.png"
+            src="./before-after.png"
             alt="antes y después del cambio físco de tino"
           />
         </div>

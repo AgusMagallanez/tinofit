@@ -15,7 +15,7 @@ const Header = () => {
     <header className="header">
       <div className="logo">
         <Link to="/">
-          <img src="/logo.png" alt="Logo TINOFIT" />
+          <img src="./logo.png" alt="Logo TINOFIT" />
         </Link>
       </div>
       <nav className="nav-bar">

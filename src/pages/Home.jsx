@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import PlansSectionComp from "../components/PlansSection";
 import PaymentsMethodsComp from "../components/PaymentsMethods";
 import { Instagram, YouTube } from "@mui/icons-material";

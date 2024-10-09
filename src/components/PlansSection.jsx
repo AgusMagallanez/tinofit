@@ -34,7 +34,7 @@ const PlansSection = () => {
             image={
               plan.fields.image
                 ? plan.fields.image.fields.file.url
-                : "/about-me-pic.png"
+                : "./about-me-pic.JPG"
             }
           />
         ))}
