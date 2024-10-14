@@ -31,15 +31,15 @@
 }
 
 .plan-title {
-  font-size: 1.5rem;
-  margin: 0 0 10px;
+  font-size: 1.4rem;
+  margin: 0 0 5px;
   color: white;
 }
 
 .plan-description {
   font-size: 1rem;
   color: #bfbfbf;
-  margin-bottom: 20px;
+  margin: 10px 0;
 }
 
 .plan-price {
@@ -65,7 +65,7 @@
 
 @media (max-width: 768px) {
   .plan-card {
-    max-height: 100vh;
+    /* max-height: 100vh; */
   }
   .plan-image {
     height: 250px;

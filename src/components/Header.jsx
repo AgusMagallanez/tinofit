@@ -21,7 +21,7 @@ const Header = () => {
       <nav className="nav-bar">
         <ul className="desktop-nav">
           <li>
-            <Link to="/acerca-de">Acerca de</Link>
+            <Link to="/acerca-de">Sobre mi</Link>
           </li>
           <li>
             <Link to="/planes">Planes</Link>
@@ -60,7 +60,7 @@ const Header = () => {
             <ul>
               <li>
                 <Link to="/acerca-de" onClick={toggleDrawer}>
-                  Acerca de
+                  Sobre mi
                 </Link>
               </li>
               <li>
